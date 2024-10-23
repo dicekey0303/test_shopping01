@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <button class="menu-button">メニューを開く</button>
+      <div class="logo">
+        <a href="#">
+          <span>TechShop</span>
+        </a>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="商品を検索...">
+        <button type="submit">検索</button>
+      </div>
+      <div class="cart">
+        <button>カートを開く</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <aside>
+      <nav>
+        <a href="#">商品情報</a>
+        <a href="#">店舗情報</a>
+        <hr>
+        <button>全店舗</button>
+      </nav>
+    </aside>
+
+    <main>
+      <h1>商品一覧</h1>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="/placeholder.svg?height=200&width=200&text=スマートフォン" alt="スマートフォン">
+          <div class="product-info">
+            <h2>スマートフォン</h2>
+            <p>東京店</p>
+          </div>
+          <div class="product-action">
+            <span class="price">¥79,800</span>
+            <button>カートに追加</button>
+          </div>
+        </div>
+        <!-- 他の商品カードも同様に追加 -->
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2023 TechShop Inc. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
